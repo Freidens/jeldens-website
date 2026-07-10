@@ -141,6 +141,9 @@ html {
 /* FOOTER */
 .footer {
     background-color: var(--footer);
+    width: 100%;
+    min-height: clamp(180px, 20vw, 300px);
+    padding: clamp(2rem, 4vw, 4rem) clamp(1rem, 5vw, 5rem);
 }
 
 /* Website Posters Styles */

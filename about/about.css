@@ -23,7 +23,7 @@
 }
 
 .hero_poster {
-    width: 100%;
+    width: 100vw;
     border-top: 2px solid var(--primary);
     border-bottom: 2px solid var(--primary);
 }
