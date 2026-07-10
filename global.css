@@ -9,6 +9,15 @@
     --footer: #0F172A;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
 html {
     font-family: "Inter", sans-serif;
     font-size: clamp(15px, 0.3vw + 14px, 18px);
