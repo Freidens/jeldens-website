@@ -1,0 +1,22 @@
+* {
+    --primary: #1C9BF6;
+    --supplement: #ED3237;
+    --secondary: #FFFFFF;
+}
+
+.image {
+    width: auto;
+    padding-bottom: 5px;
+    border-radius: 0.8vw 0.8vw 0 0;
+}
+
+.card {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 0.8vw;
+    padding-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

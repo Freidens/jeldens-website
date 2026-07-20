@@ -1,0 +1,21 @@
+* {
+    --primary: #1C9BF6;
+    --supplement: #ED3237;
+    --secondary: #FFFFFF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Products Section */
+.products {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+
+    gap: 10px;
+    margin: 10px;
+}
